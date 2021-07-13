@@ -31,7 +31,8 @@
       {
         "newlinesBetween": "always",
         "groups": [
-          ["/react/", "module"],
+          "/^react/",
+          "module",
           ["parent", "sibling", "index"],
           "/styles$/"
         ],
